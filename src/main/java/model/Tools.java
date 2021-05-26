@@ -9,7 +9,7 @@ public class Tools {
         final String url = "jdbc:postgresql://localhost:5432/Logbook";
         Connection result = null;
         try {
-             result = DriverManager.getConnection(url, "postgres", "admin");
+             result = DriverManager.getConnection(url, "user1", "user1");
         } catch (SQLException e) {
             e.printStackTrace();
         }
